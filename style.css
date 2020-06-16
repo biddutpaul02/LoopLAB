@@ -1,0 +1,99 @@
+body {
+  background: #333;
+  color: #fff; 
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar {
+  border-bottom: 3px solid #008ed6;
+  background: #292b2c;
+  opacity: 0.7;
+}
+#home-section{
+    background: url(img/home.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#home-section .dark-overlay{
+    background: rgba(0, 0, 0, 0.7);
+    height: 700px;
+}
+.right-area{
+    margin-top: 110px;
+}
+#home-section .fa {
+    background: #fff;
+    color: #008ed6;
+    padding: 4px;
+    font-size: 30px;
+    border-radius: 5px; 
+}
+#home-section .card-form {
+    opacity: 0.8; 
+}
+.card.bg-primary.text-center.card-form {
+    margin-top: 110px;
+}
+#explore-area{
+    height: 280px;
+    background: #333;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+}
+.content{
+    padding-top: 80px;
+    font-weight: 200;
+}
+.content p{
+    font-size: 20px;
+}
+button {
+    outline: none;
+    border: none;
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 42px;
+    border-radius: 8px;
+}
+.explore-contact-area img{
+    width: 540px;
+    height: 360px;
+}
+.explore-contact-area{
+    background: #fff;
+    padding-top: 50px;
+}
+.explore-contact-area p{
+    color: black;
+}
+.explore-contact-area h2{
+    color: black;
+}
+div#create-area {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background:#007bff;
+    color: #fff;
+}
+.create-heading{
+    padding-top: 65px;
+}
+.footer-area{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.footer-area {
+    padding: 30px 30px;
+}
+
+
+
+
+
