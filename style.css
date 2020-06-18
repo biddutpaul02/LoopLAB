@@ -1,99 +1,119 @@
-body {
-  background: #333;
-  color: #fff; 
+*{
+    margin: 0;
+    padding: 0;
 }
 html{
     scroll-behavior: smooth;
 }
-.navbar {
-  border-bottom: 3px solid #008ed6;
-  background: #292b2c;
-  opacity: 0.7;
+
+.navbar{
+    background: #14594D;
 }
-#home-section{
-    background: url(img/home.jpg);
-    background-repeat: no-repeat;
+.navbar a{
+    font-weight: bold;
+    font-size: 15px;
+}
+.home-area{
+    background: url(img/maxresdefault.jpg);
     height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
-#home-section .dark-overlay{
-    background: rgba(0, 0, 0, 0.7);
+.home-inner-area{
+    background: rgb(0, 0, 0,0.5);
     height: 700px;
+
 }
-.right-area{
-    margin-top: 110px;
-}
-#home-section .fa {
-    background: #fff;
-    color: #008ed6;
-    padding: 4px;
-    font-size: 30px;
-    border-radius: 5px; 
-}
-#home-section .card-form {
-    opacity: 0.8; 
-}
-.card.bg-primary.text-center.card-form {
-    margin-top: 110px;
-}
-#explore-area{
-    height: 280px;
-    background: #333;
+.heading{
     color: #fff;
+    margin-top: 100px;
+}
+.card{
     justify-content: center;
     text-align: center;
 }
-.content{
-    padding-top: 80px;
-    font-weight: 200;
+.member-area{
+    margin-top: 50px;
 }
-.content p{
-    font-size: 20px;
-}
-button {
-    outline: none;
-    border: none;
-    background: none;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 10px 42px;
-    border-radius: 8px;
-}
-.explore-contact-area img{
-    width: 540px;
-    height: 360px;
-}
-.explore-contact-area{
-    background: #fff;
-    padding-top: 50px;
-}
-.explore-contact-area p{
-    color: black;
-}
-.explore-contact-area h2{
-    color: black;
-}
-div#create-area {
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    background:#007bff;
-    color: #fff;
-}
-.create-heading{
-    padding-top: 65px;
+.sec-part{
+    margin-top: 50px;
 }
 .footer-area{
+    background: #14594D;
+    color: #fff;
     justify-content: center;
     text-align: center;
     align-items: center;
 }
-.footer-area {
-    padding: 30px 30px;
+.navbar-nav a{
+    color: #fff;
 }
-
-
-
-
+.navbar-nav a:hover{
+    background: #fff;
+    color: black;
+    border-bottom: 2px solid red;
+}
+.headinngs{
+    background:#14594D ;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+}
+.down{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.service-area{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.service-area .fa{
+    padding: 20px 0;
+    font-size: 25px;
+    color: #14594D;
+}
+.service{
+    margin-top: 50px;
+}
+.card:hover{
+    transform: translateY(-30px);
+    -webkit-box-shadow: 6px 9px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 9px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 9px 5px 0px rgba(0,0,0,0.75);
+    transition: .4s;
+    cursor: pointer;
+}
+.service-area .fa{
+    font-size: 30px;
+}
+.contact-area h2{
+    margin-bottom: 45px;
+}
+.contact-area ul{
+    text-decoration: none;
+    list-style: none;
+    background: #14594D;
+    box-sizing: border-box;
+    display: block;
+}
+.contact-area ul a{
+    padding: 20px 0;
+    color: #fff;
+}
+h3.contact {
+    margin-bottom: 87px;
+}
+.contact-area .fa {
+    padding: 20px 52px;
+    font-size: 30px;
+}
+.footer-area{
+    margin-top: 30px;
+}
+.footer-area {
+    padding: 28px;
+}
 
